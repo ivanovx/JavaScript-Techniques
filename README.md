@@ -1,2 +1,2 @@
 # JavaScript-Techniques
-JavaScript-Techniques in progress
+JavaScript-Techniques
