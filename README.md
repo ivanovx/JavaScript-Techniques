@@ -1,2 +1,1 @@
 # JavaScript-Techniques
-JavaScript-Techniques
