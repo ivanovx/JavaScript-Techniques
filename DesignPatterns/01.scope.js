@@ -1,4 +1,4 @@
-﻿var globalVariable = 'Global string';
+﻿var globalVariable = "Global string";
 
 function outerFunction() {
     var privateVar = globalVariable;
@@ -12,4 +12,5 @@ function outerFunction() {
 }
 
 var result = outerFunction();
-console.log(result); // Global string
+
+console.log(result);

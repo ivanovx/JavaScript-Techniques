@@ -29,7 +29,7 @@
   };
 }());
 
-var calc = new controls.Calculator('SoftUniCalc');
+var calc = new controls.Calculator('IvanovCalc');
 
 calc.add(7);
 calc.showResult();

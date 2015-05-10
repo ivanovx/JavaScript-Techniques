@@ -9,7 +9,7 @@
 }
 
 var ivanov = buildPerson('Ivan', 'Ivanov');
-var kenov = buildPerson('Ivaylo', 'Kenov');
+var gosho = buildPerson('Gosho', 'Georgiev');
 
 console.log(ivanov);
-console.log(kenov);
+console.log(gosho);

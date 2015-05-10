@@ -11,7 +11,7 @@
 var marks = [
 	{ subject: 'JavaScript', score: 5.50 },
 	{ subject: 'OOP', score: 5.00 },
-	{ subject: 'Slice and Dice', score: 6.00 },
+	{ subject: 'NodeJS', score: 6.00 },
 	{ subject: 'Photoshop', score: 4.00 }
 ];
 

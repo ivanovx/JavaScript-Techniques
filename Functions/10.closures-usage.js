@@ -52,7 +52,7 @@ var database = function () {
 
 
 database.save({
-	name: 'Peter',
+	name: 'Pesho',
 	age: 13
 }).save({
 	name: 'Gosho',

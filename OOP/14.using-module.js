@@ -20,5 +20,5 @@ function Student(name, age, grade) {
   return base;
 }
 
-var s = Student("Peter", 13, 4);
+var s = Student("Pesho", 13, 4);
 console.log(s.introduce());

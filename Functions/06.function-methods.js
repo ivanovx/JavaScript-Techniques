@@ -22,9 +22,9 @@ function passArguments() {
 }
 
 var obj = {
-	fistname: 'Doncho',
-	lastname: 'Minkov',
-	specialities: ['JavaScript', 'Web', 'Android', 'iOS', 'Window Phone']
+	fistname: 'Ivan',
+	lastname: 'Ivanov',
+	specialities: ['JavaScript', 'Web', 'NodeJS', 'C#']
 };
 
 console.log('Arguments collection:');

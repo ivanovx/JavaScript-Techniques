@@ -1,2 +1,0 @@
-* add JS new features
-* add TypeScript techniques

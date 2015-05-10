@@ -1,6 +1,4 @@
 function stringRepeat(ch, times) {
-	//global variable - without vaar
-	//'use strict' - solves this
 	str = '';
 	for (var i = 0; i < times; i += 1) {
 		str += ch;

@@ -29,7 +29,7 @@ Calculator.prototype = (function () {
   };
 }());
 
-var calc = new Calculator('SoftUniCalc');
+var calc = new Calculator('IvanovCalc');
 
 calc.add(7);
 calc.showResult();
