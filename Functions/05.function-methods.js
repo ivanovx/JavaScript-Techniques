@@ -6,7 +6,7 @@ function toArray(obj) {
 	} else {
 		arr = [];
 		for (prop in obj) {
-			if (typeof obj[prop] !== 'function') {
+			if (typeof obj[prop] !== "function") {
 				arr.push({
 					prop: prop,
 					value: obj[prop]
@@ -22,12 +22,17 @@ function passArguments() {
 }
 
 var obj = {
-	fistname: 'Ivan',
-	lastname: 'Ivanov',
-	specialities: ['JavaScript', 'Web', 'NodeJS', 'C#']
+	fistname: "Ivan",
+	lastname: "Ivanov",
+	specialities: [
+		"JavaScript",
+		"Web",
+		"NodeJS",
+		"C#"
+	]
 };
 
-console.log('Arguments collection:');
+console.log("Arguments collection:");
 passArguments(1, 2, 3, 4, 5, 6, 7);
-console.log('Object:');
+console.log("Object:");
 console.log(toArray(obj));

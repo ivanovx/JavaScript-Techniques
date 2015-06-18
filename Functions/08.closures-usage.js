@@ -1,15 +1,16 @@
 var database = function () {
-	var records,
-		lastId,
-		self;
+	var records;
+	var	lastId;
+	var	self;
 
 	function findRecordById(id) {
-		var i,
-			record;
+		var i;
+		var	record;
+
 		if (!records) {
 			return null;
 		}
-		for (i = 0; i < records.length; i += 1) {
+		for (i = 0; i < records.length; i++) {
 			record = records[i];
 			if (record.id === id) {
 				return record;
@@ -31,11 +32,13 @@ var database = function () {
 	}
 
 	function getAllRecords() {
-		var clonedRecords,
-			i;
+		var clonedRecords;
+		var	i;
+
 		clonedRecords = [];
 		clonedRecords[records.length - 1] = undefined;
-		for (i = 0; i < records.length; i += 1) {
+
+		for (i = 0; i < records.length; i++) {
 			clonedRecords[i] = records[i];
 		}
 		return clonedRecords;
@@ -52,10 +55,10 @@ var database = function () {
 
 
 database.save({
-	name: 'Pesho',
+	name: "Pesho",
 	age: 13
 }).save({
-	name: 'Gosho',
+	name: "Gosho",
 	age: 17
 }).save(database);
 

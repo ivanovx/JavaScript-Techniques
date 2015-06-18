@@ -1,12 +1,13 @@
 if (true) {
 	function print(msg) {
-		console.log('--from if');
+		console.log("--from if");
 		console.log(msg);
 	}
 } else {
 	function print(msg) {
-		console.log('--from else');
+		console.log("--from else");
 		console.log(msg);
 	}
 }
-print('Test');
+
+print("Ivan Ivanov");

@@ -1,9 +1,7 @@
 function sum(items) {
-	var i,
-		itemsSum;
+	var itemsSum = 0;
 
-	itemsSum = 0;
-	for (i = 0; i < items.length; i += 1) {
+	for (var i = 0; i < items.length; i++) {
 		itemsSum += items[i];
 	}
 	return itemsSum;
