@@ -1,22 +1,27 @@
-﻿function printStudent(student) {
-	console.log(student.name);
+﻿function print(person) {
+	console.log(person.name);
 	
 	for (var i in marks) {
-		console.log( marks[i].subject + ' : ' + marks[i].score);
+		console.log( marks[i].subject + " : " + marks[i].score);
 	}
 	
-	console.log('--------------------------');
+	console.log("--------------------------");
 }
 
 var marks = [
-	{ subject: 'JavaScript', score: 5.50 },
-	{ subject: 'OOP', score: 5.00 },
-	{ subject: 'NodeJS', score: 6.00 },
-	{ subject: 'Photoshop', score: 4.00 }
+	{ subject: "JavaScript", score: 5.50 },
+	{ subject: "OOP", score: 5.00 },
+	{ subject: "NodeJS", score: 6.00 },
+	{ subject: "Photoshop", score: 4.00 }
 ];
 
-var student = { name: 'Ivan Ivanov', marks: marks };
+var person = { 
+	name: "Ivan Ivanov",
+	marks: marks
+};
 
-printStudent(student);
+print(person);
+
 marks[2].score = 5.50;
-printStudent(student);
+
+print(person);

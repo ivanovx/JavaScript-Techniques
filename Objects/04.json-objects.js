@@ -1,6 +1,6 @@
 ﻿var person = {
-	firstname: 'Ivan',
-	lastname: 'Ivanov',
+	firstname: "Ivan",
+	lastname: "Ivanov",
 	toString: function () {
 		return this.firstname + " " + this.lastname;
 	}
@@ -12,5 +12,5 @@ function renamePerson(personObj, fname, lname) {
 }
 
 console.log(person);		
-renamePerson(person, 'Stamat');
+renamePerson(person, "Stamat");
 console.log(person);
