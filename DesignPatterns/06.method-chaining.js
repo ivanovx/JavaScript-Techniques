@@ -22,5 +22,5 @@ var Dog = (function () {
 	return Dog;
 }());
 
-var doggy = new Dog().setName('Fluffy').setColor('purple').setGender('male');
+var doggy = new Dog().setName("Fluffy").setColor("purple").setGender("male");
 console.log(doggy);

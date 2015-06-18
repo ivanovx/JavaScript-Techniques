@@ -4,7 +4,7 @@ var Calculator = function (name) {
 };
 
 Calculator.prototype = (function () {
-  var add, subtract, showResult, formatResult; // hidden members
+  var add, subtract, showResult, formatResult;
 
   add = function (x) {
     this.result += x;
@@ -18,10 +18,9 @@ Calculator.prototype = (function () {
   };
 
   formatResult = function (name, value) {
-    return name + ' says the result is ' + value;
+    return name + " says the result is " + value;
   };
 
-  // exposed members
   return {
     add: add,
     subtract: subtract,
@@ -29,7 +28,7 @@ Calculator.prototype = (function () {
   };
 }());
 
-var calc = new Calculator('IvanovCalc');
+var calc = new Calculator("IvanovCalc");
 
 calc.add(7);
 calc.showResult();

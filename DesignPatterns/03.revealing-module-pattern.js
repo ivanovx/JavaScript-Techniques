@@ -1,7 +1,6 @@
 ﻿var controls = (function () {
-  //hidden function  
   function formatResult(name, value) {
-    return name + ' says the result is ' + value;
+    return name + " says the result is " + value;
   }
 
   var Calculator = (function () {
@@ -23,13 +22,12 @@
     return Calculator;
   }());
 
-  //return only a reference to the function
   return {
     Calculator: Calculator
   };
 }());
 
-var calc = new controls.Calculator('IvanovCalc');
+var calc = new controls.Calculator("IvanovCalc");
 
 calc.add(7);
 calc.showResult();

@@ -1,6 +1,7 @@
 var controls = function () {
-    var Calculator,
-        calculatorInstance;
+    var Calculator;
+    var calculatorInstance;
+
     Calculator = (function () {
         function Calculator() {
             this._result = 0;
@@ -17,14 +18,14 @@ var controls = function () {
         };
 
         Calculator.prototype.showResult = function () {
-            console.log('The result is: ' + this._result);
+            console.log("The result is: " + this._result);
         };
         return Calculator;
     }());
 
     return {
         getCalculator: function () {
-            if (!calculatorInstance) { // Load only first time
+            if (!calculatorInstance) {
                 calculatorInstance = new Calculator();
             }
             return calculatorInstance;

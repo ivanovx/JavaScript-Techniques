@@ -1,10 +1,8 @@
 ﻿var controls = (function () {
-	//private function	
 	function formatResult(name, value) {
-		return name + ' says the result is ' + value;
+		return name + " says the result is " + value;
 	}
 
-	// exposed functions
 	return {
 		Calculator: function (name) {
 			var result;
