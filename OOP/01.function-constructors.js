@@ -1,5 +1,4 @@
-function Animal() {
-}
+function Animal() { }
 
 Animal();
 

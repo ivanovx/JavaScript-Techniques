@@ -13,8 +13,8 @@
 }
 
 var count = 30000;
-var s = 'Test string!';
-var str = '';
+var s = "Test string!";
+var str = "";
 
 for (var i = 0; i < count; i++) {
     str += s + s + s + s + s;
@@ -27,4 +27,5 @@ for (var i = 0; i < count; i++) {
 }
 
 var result = stringBuilder.toString();
+
 console.log(result);
