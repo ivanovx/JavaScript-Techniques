@@ -2,9 +2,9 @@
 var length = array.length;
 var reversed = new Array(length);
 
-for (var index = 0; index < length; index++) {
-	reversed[length - index - 1] = array[index];
+for (var i = 0; i < length; i++) {
+	reversed[length - i - 1] = array[i];
 }
 
-console.log('array = [' + array.join(', ') + ']');
-console.log('reversed = [' + reversed.join(', ') + ']');
+console.log("Array = [" + array.join(", ") + "]");
+console.log("reversed = [" + reversed.join(", ") + "]");

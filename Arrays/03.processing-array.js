@@ -1,5 +1,10 @@
-﻿var capitals = ["Sofia", "Washington", "London",  "Paris"];
+﻿var towns = [
+	"Sofia",
+	"Washington",
+	"London",
+	"Paris"
+];
 
-for (var i in capitals) {
-	console.log(capitals[i]);
+for (var town in towns) {
+	console.log(towns[town]);
 }
