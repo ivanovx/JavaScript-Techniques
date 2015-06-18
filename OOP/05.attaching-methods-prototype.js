@@ -1,5 +1,4 @@
 function Rect(x, y, width, height) {
-	//var _x = x; // Hidden variable(Private)
 	this.x = x;
 	this.y = y;
 	this.width = width;
@@ -15,7 +14,7 @@ Rect.prototype = {
 	}
 };
 
-var rect1 = new Rect(50, 55, 15, 10),
-	rect2 = new Rect(50, 55, 15, 10);
+var rect1 = new Rect(50, 55, 15, 10);
+var	rect2 = new Rect(50, 55, 15, 10);
 
 console.log(rect1.calcArea === rect2.calcArea);

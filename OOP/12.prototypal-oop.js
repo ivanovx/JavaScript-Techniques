@@ -1,6 +1,8 @@
 Object.prototype.extend = function (properties) {
-  function f() {};
+ 	function f() {};
+	
 	var prop;
+    
     f.prototype = Object.create(this);
     for (prop in properties) {
         f.prototype[prop] = properties[prop];

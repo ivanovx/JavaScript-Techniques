@@ -1,8 +1,6 @@
 Array.prototype.sum = function () {
-	var sum,
-		i;
+	var sum = 0;
 
-	sum = 0;
 	for (var i = 0; i < this.length; i++) {
 		sum += this[i];
 	};
@@ -11,24 +9,3 @@ Array.prototype.sum = function () {
 }
 
 console.log([1, 3, 12, 33, 2].sum());
-
-Array.prototype.reverse = function () {
-	var counter, 
-		temp, 
-		index;
-
-	counter = this.length;
-    while (counter > 0) {
-        index = Math.floor(Math.random() * counter);
-
-        counter--;
-
-        temp = array[counter];
-        array[counter] = array[index];
-        array[index] = temp;
-    }
-
-    return array;
-}
-
-console.log([1, 2, 3, 4, 5, 6].reverse());
